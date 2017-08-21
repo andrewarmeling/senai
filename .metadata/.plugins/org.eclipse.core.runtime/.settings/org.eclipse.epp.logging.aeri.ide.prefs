@@ -1,0 +1,9 @@
+anonymizeStackTraces=false
+configured=true
+eclipse.preferences.version=1
+reporterEmail=andre.w.gomes@estudante.sc.senai.br
+reporterName=Andr\u00E9 Warmeling Gomes
+resetSendMode=KEEP
+resetSendModeOn=0
+sendMode=NOTIFY
+servers/org.eclipse.epp.logging.aeri.ide.server/configured=true

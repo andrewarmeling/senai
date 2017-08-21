@@ -1,0 +1,10 @@
+package classesFabrica;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Fabrica {
+
+	public List<Carro> listaDeCarros = new ArrayList<Carro>();
+
+}

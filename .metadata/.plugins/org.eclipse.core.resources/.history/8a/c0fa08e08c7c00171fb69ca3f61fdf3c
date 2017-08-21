@@ -1,0 +1,11 @@
+package calculadoraTeste;
+
+public abstract class Operacao {
+
+	public Operacao() {
+		int numero1 = 0;
+		int numero2 = 0;
+	}
+
+	abstract public String calcular();
+}

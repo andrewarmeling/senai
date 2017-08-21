@@ -1,0 +1,22 @@
+package principal;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import classesFabrica.Carro;
+import interfaceGrafica.Menu;
+
+public class Principal {
+
+	public List<Carro> listaDeCarros = new ArrayList<Carro>();
+
+	public static void main(String[] args) {
+
+		while (true) {
+			Menu menu = new Menu();
+			menu.exibirMenu();
+		}
+
+	}
+
+}

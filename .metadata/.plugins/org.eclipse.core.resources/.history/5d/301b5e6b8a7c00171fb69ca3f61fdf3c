@@ -1,0 +1,16 @@
+package calculadoraTeste;
+
+public class Calculadora {
+
+	public static void main(String[] args) {
+
+		while (true) {
+
+			int num1 = EntradaSaida.infonum1();
+			int num2 = EntradaSaida.infonum2();
+			int acao = EntradaSaida.infop();
+		}
+
+	}
+
+}

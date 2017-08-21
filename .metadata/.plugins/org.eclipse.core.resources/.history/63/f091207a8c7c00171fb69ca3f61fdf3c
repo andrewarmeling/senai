@@ -1,0 +1,27 @@
+package calculadoraTeste;
+
+import javax.swing.JOptionPane;
+
+public class Divisao extends Operacao {
+
+	public Divisao() {
+
+		m_numero1 = 0;
+		m_numero2 = 0;
+	}
+
+	public String calcular() {
+
+		double dResultado = 0;
+		String msg = "";
+
+		if (m_numero2 != 0) {
+			dResultado = m_numero1 / m_numero2;
+			msg = "A divis�o �: " + dResultado;
+		} else {
+			JOptionPane.showMessageDialog(null, "ERRO DIVIS�O POR ZERO", "erro", JOptionPane.OK_CANCEL_OPTION);
+		}
+		return msg;
+
+	}
+}
