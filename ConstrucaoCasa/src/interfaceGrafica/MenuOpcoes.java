@@ -115,8 +115,7 @@ public class MenuOpcoes {
 			JComboBox field1 = new JComboBox(list.toArray());
 			String[] listStatus = { "Aberto", "Fechada" };
 
-			JComboBox field2 = new JComboBox(listStatus
-					);
+			JComboBox field2 = new JComboBox(listStatus);
 			Object[] message = { "Porta: ", field1, "Status: ", field2 };
 
 			int option = JOptionPane.showConfirmDialog(null, message, "Porta", JOptionPane.OK_CANCEL_OPTION);

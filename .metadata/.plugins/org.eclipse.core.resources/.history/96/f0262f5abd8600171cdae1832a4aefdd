@@ -1,0 +1,17 @@
+package principal;
+
+import interfaceGrafica.Menu;
+//import classesFabrica.Fabrica;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		while (true) {
+			Menu menu = new Menu();
+			menu.exibirMenu();
+		}
+
+	}
+
+}
