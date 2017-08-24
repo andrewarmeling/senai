@@ -5,7 +5,7 @@ import classesFabrica.Fabrica;
 
 public class Menu {
 
-	Fabrica fabrica = new Fabrica();
+	public Fabrica fabrica = new Fabrica();
 
 	public void exibirMenu() {
 
