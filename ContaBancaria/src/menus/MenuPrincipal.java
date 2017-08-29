@@ -14,13 +14,13 @@ public class MenuPrincipal {
 			switch (escolha) {
 
 			case 1:
-				GerenciarContas gerenciarContas = new GerenciarContas();
-				gerenciarContas.exibirMenu();
+				MenuBancoDeDados menuBanco = new MenuBancoDeDados();
+				menuBanco.exibirMenu();
 				break;
 
 			case 2:
-				MenuDeConta menuDeConta = new MenuDeConta();
-				menuDeConta.exibirMenu();
+				MenuConta menuConta = new MenuConta();
+				menuConta.exibirMenu();
 				break;
 
 			case 9:
