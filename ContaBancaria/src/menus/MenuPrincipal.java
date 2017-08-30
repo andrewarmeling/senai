@@ -9,7 +9,7 @@ public class MenuPrincipal {
 		while (true) {
 
 			int escolha = Integer.parseInt(JOptionPane.showInputDialog(
-					"Escolha uma opção: \n\n" + "1 - Gerenciar Contas \n" + "2 - Menu de Conta \n" + "9 - Sair"));
+					"Escolha uma opção: \n\n" + "1 - Gerenciar Contas \n" + "2 - Menu de Conta \n" + "9 - Sair\n\n"));
 
 			switch (escolha) {
 

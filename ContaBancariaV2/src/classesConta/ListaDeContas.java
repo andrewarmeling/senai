@@ -1,16 +1,15 @@
-package bancoDeDados;
+package classesConta;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
-import classesConta.Conta;
-
 public class ListaDeContas {
 
-	private List<Conta> listaDeContas;
+	private List<Conta> listaDeContas = new ArrayList<Conta>();
 
 	public List<Conta> getListaDeContas() {
 		return this.listaDeContas;
