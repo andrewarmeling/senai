@@ -17,6 +17,19 @@ public class Movimentacao {
 		this.tipo = tipo;
 	}
 
+	public String getTipoString() {
+		String saida = "";
+
+		if (this.getTipo() == 0) {
+			saida += "Depósito";
+		} else {
+			saida += "Saque";
+		}
+
+		return saida;
+
+	}
+
 	public double getValor() {
 		return this.valor;
 	}
