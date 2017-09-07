@@ -3,7 +3,7 @@ package menu;
 import javax.swing.JOptionPane;
 
 import estoque.GerenciarEstoque;
-import venda.Venda;
+//import venda.Venda;
 
 public class MenuPrincipal {
 
@@ -32,8 +32,8 @@ public class MenuPrincipal {
 				break;
 
 			case 4:
-				Venda venda = new Venda();
-				venda.efetuarVenda();
+				// Venda venda = new Venda();
+				// venda.efetuarVenda();
 				break;
 
 			case 5:

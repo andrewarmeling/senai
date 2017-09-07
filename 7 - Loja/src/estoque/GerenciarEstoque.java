@@ -22,10 +22,14 @@ public class GerenciarEstoque {
 		int codigo = 0;
 		boolean existe = false;
 		do {
+			existe = false;
 			codigo = Integer.parseInt(JOptionPane.showInputDialog("Insira o código para o produto a ser adicionado: "));
 			for (Produto produto : Estoque.estoque) {
 				if (produto.getCodigo() == codigo) {
 					existe = true;
+					JOptionPane.showMessageDialog(null, "Código já existente! Insira outro código!", "Erro!",
+							JOptionPane.OK_OPTION);
+					break;
 				}
 			}
 		} while (existe == true || codigo == 0);
@@ -63,16 +67,15 @@ public class GerenciarEstoque {
 			for (Produto produto : Estoque.estoque) {
 				if (produto.getCodigo() == codigo) {
 					existe = true;
+					int adicionar = Integer
+							.parseInt(JOptionPane.showInputDialog("Insira a quantidade a ser adicionada: "));
+
+					produto.setQuantidade(produto.getQuantidade() + adicionar);
+
+					JOptionPane.showMessageDialog(null,
+							"Foram adicionadas " + adicionar + " unidades de " + produto.getNome() + ".");
 				}
 			}
 		} while (existe == false);
-
-		int adicionar = Integer.parseInt(JOptionPane.showInputDialog("Insira a quantidade a ser adicionada: "));
-
-		Estoque.estoque.get(codigo).setQuantidade(Estoque.estoque.get(codigo).getQuantidade() + adicionar);
-
-		JOptionPane.showMessageDialog(null,
-				"Foram adicionadas " + adicionar + " unidades de " + Estoque.estoque.get(codigo).getNome() + ".");
-
 	}
 }

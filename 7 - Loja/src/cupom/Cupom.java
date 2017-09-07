@@ -1,19 +1,13 @@
 package cupom;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import venda.Venda;
+import java.util.ArrayList;
 
 public class Cupom {
 
-	private List<Venda> cupom = new ArrayList<Venda>();
+	private List<Item> listaDeItens = new ArrayList<Item>();
 
-	public void adicionarVenda(Venda venda) {
-		cupom.add(venda);
-	}
-
-	public List<Venda> getCupom() {
-		return cupom;
+	public void adicionarItem(Item item) {
+		listaDeItens.add(item);
 	}
 }
