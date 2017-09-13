@@ -1,9 +1,10 @@
-package cupom;
+package venda;
 
 public class Item {
 
 	private String produto;
 	private int quantidade;
+	private Double valor;
 
 	public String getProduto() {
 		return produto;
@@ -20,4 +21,13 @@ public class Item {
 	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
 	}
+
+	public Double getValor() {
+		return valor;
+	}
+
+	public void setValor(Double valor) {
+		this.valor = valor;
+	}
+
 }

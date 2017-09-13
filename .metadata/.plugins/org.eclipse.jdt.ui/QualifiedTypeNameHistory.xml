@@ -21,17 +21,20 @@
 <fullyQualifiedTypeName name="menu.Menu"/>
 <fullyQualifiedTypeName name="classesConta.ListaDeContas"/>
 <fullyQualifiedTypeName name="main.Conta"/>
-<fullyQualifiedTypeName name="javax.swing.JComboBox"/>
 <fullyQualifiedTypeName name="main.Movimentacao"/>
 <fullyQualifiedTypeName name="menu.MenuPrincipal"/>
 <fullyQualifiedTypeName name="javax.swing.JTextField"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="estoque.GerenciarEstoque"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="estoque.Estoque"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.swing.JComboBox"/>
 <fullyQualifiedTypeName name="estoque.Produto"/>
-<fullyQualifiedTypeName name="estoque.Estoque"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="venda.Venda"/>
+<fullyQualifiedTypeName name="venda.listaDeCupons"/>
+<fullyQualifiedTypeName name="venda.ListaDeCupons"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="venda.ListarCupons"/>
 </qualifiedTypeNameHistroy>

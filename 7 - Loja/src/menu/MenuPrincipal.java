@@ -3,7 +3,10 @@ package menu;
 import javax.swing.JOptionPane;
 
 import estoque.GerenciarEstoque;
+import venda.Venda;
 //import venda.Venda;
+import venda.ListaDeCupons;
+import venda.ListarCupons;
 
 public class MenuPrincipal {
 
@@ -12,7 +15,7 @@ public class MenuPrincipal {
 
 			int opcao = Integer.parseInt(JOptionPane.showInputDialog("Escolha uma opção abaixo : \n\n"
 					+ "1. Cadastrar produtos no estoque \n" + "2. Listar os produtos cadastrados no estoque \n"
-					+ "3. Adicionar unidades a um produto já cadastrado \n" + "4. Gerar cupom (venda) \n"
+					+ "3. Adicionar unidades a um produto já cadastrado \n" + "4. Venda (Gerar cupom) \n"
 					+ "5. Somar total dos cupons gerados \n" + "9. Sair do Programa \n\n"));
 
 			switch (opcao) {
@@ -32,11 +35,13 @@ public class MenuPrincipal {
 				break;
 
 			case 4:
-				// Venda venda = new Venda();
-				// venda.efetuarVenda();
+				Venda venda = new Venda();
+				venda.efetuarVenda();
 				break;
 
 			case 5:
+				ListarCupons listar = new ListarCupons();
+				listar.listarCupons();
 				break;
 
 			case 9:
